@@ -17,5 +17,4 @@ Bienvenue dans le projet O'Dwich - Fastfood Website ! Ce site web moderne a ét�
 ## Aperçu 🎬
 
 ![image](https://github.com/Sajedd/odwich-fastfood-website/assets/112949717/d64c4ea5-f8af-4b7e-8e5b-5441764e22e8)
-
-
+![image](https://github.com/Sajedd/odwich-fastfood-website/assets/112949717/d4357a5f-cf80-43f3-9602-8fcdf2712d02)

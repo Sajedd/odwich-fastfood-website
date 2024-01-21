@@ -1,0 +1,82 @@
+body {
+  padding-top: 56px;
+  font-family: "Arial", sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 76px;
+  }
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.jumbotron {
+  background: url("/odwich/img/Baniere-wood_dwich.png") center/cover;
+  color: whitesmoke;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 0;
+  animation: fadeIn 1s ease-out;
+}
+
+.containers {
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 14px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.menu-category {
+  margin-top: 50px;
+}
+
+.menu-item {
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover img {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Animation fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation fade-in from bottom */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
